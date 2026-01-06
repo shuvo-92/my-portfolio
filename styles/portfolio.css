@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1600px;
+}
+
+/* shared style*/
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.logo h2 {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.orange-color {
+  color: #fc6E0A;
+}
+
+.btn {
+  background-color: #fc6E0a;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 35px;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #D83577;
+  box-shadow: 0px 4px 8px #55454B5E;
+}
+
+/* main style*/
+
+header {
+  background-color: #fff8f3;
+  padding-top: 50px;
+}
+
+nav {
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .menu {
+  display: flex;
+  gap: 51px;
+  list-style-type: none;
+  align-items: center;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
+}
+
+#banner {
+  border: 1px solid blue;
+  margin: 47px 38px 0px 225px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(/images/header_bg.png);
+}
+.banner-content h2 {
+  font-weight: 400;
+  font-size: 38px;
+}
+
+.banner-content h1 {
+  font-weight: 900;
+  font-size: 51px;
+}
+
+.banner-image{
+  background-image: url(/images/header_bg.png );
+}
+.banner-image img{
+  width: 400px;
+}
