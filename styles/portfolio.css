@@ -28,9 +28,9 @@ body {
   background-color: #fc6E0a;
   border: none;
   border-radius: 5px;
-  padding: 18px 35px;
+  padding: 12px 27px;
   color: #fff;
-  font-size: 27px;
+  font-size: 21px;
   font-weight: 800;
   cursor: pointer;
 }
@@ -50,7 +50,6 @@ header {
 nav {
   width: 71%;
   max-width: 1140px;
-  /* border: 1px solid red; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -62,7 +61,6 @@ nav .menu {
   gap: 51px;
   list-style-type: none;
   align-items: center;
-
 }
 
 nav ul li a {
@@ -73,25 +71,25 @@ nav ul li a {
 
 #banner {
   border: 1px solid blue;
-  margin: 47px 38px 0px 225px;
+  margin: 47px 38px 0px 230px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-image: url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
 }
-.banner-content h2 {
+
+#banner .banner-content h2 {
   font-weight: 400;
   font-size: 38px;
 }
 
-.banner-content h1 {
+#banner .banner-content h1 {
   font-weight: 900;
   font-size: 51px;
 }
 
-.banner-image{
-  background-image: url(/images/header_bg.png );
-}
-.banner-image img{
+.banner-image img {
   width: 400px;
 }
