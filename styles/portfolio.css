@@ -41,12 +41,21 @@ body {
   box-shadow: 0px 4px 8px #55454B5E;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /*  ================ Sectiom Heading ================== */
 
 .section-heading {
   max-width: 827px;
   text-align: center;
   margin: 0 auto;
+}
+
+.section-heading h2 {
+  font-size: 37px;
+  font-weight: 800;
 }
 
 .section-heading h3 {
@@ -67,9 +76,9 @@ body {
 header {
   background-color: #f7f3f1;
   padding-top: 50px;
-  background-image: url("../images/developer.png"), url("../images/header_bg.png");
+  background: url("../images/developer.png"), url("../images/header_bg.png"), #fff8f3;
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: 23px 38px  , bottom right;
 }
 
 nav {
@@ -137,7 +146,9 @@ nav ul li a {
 /*  ====================  another section =================== */
 
 
-#about {
+#about,
+#skill,
+#resume {
   padding-top: 130px;
 }
 
@@ -173,10 +184,7 @@ nav ul li a {
 
 /* ======================= Amother Section ========================= */
 
-#skill {
-  padding-top: 130px;
-  padding-bottom: 120px;
-}
+
 
 #skill .skill-container {
   width: 71%;
@@ -194,7 +202,7 @@ nav ul li a {
 #skill .skill-box .skill-card {
   max-width: 267px;
   padding: 30px;
-  background-color: #FFF8F3;
+  background-color: #fffdfc;
   border-radius: 12px;
   box-shadow: 0px 6px 50px rgba(82, 75, 75, 0.2);
 }
@@ -217,4 +225,112 @@ nav ul li a {
   font-size: 16px;
   color: #757575;
   line-height: 26px;
+}
+
+/* ========== new sectiom =============*/
+
+#resume .resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+}
+
+#resume .resume-container .section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+#resume .resume-container .resume-card {
+  max-width: 511px;
+  margin-right: 47px;
+}
+
+#resume .resume-container .resume-card .card-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#resume .resume-container .resume-card .card-subtitle {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#resume .resume-container .resume-card .card-text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+#resume .resume-container hr {
+  margin: 30px 0px;
+}
+
+
+/* =================== Footer Area============================== */
+footer {
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+
+#footer-container {
+  display: flex;
+  gap: 116px;
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+#footer-container .social {
+  max-width: 500px;
+}
+
+#footer-container .social h2 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+#footer-container .social p {
+  color: #474747;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+#footer-container .social .icons img {
+  width: 40px;
+  margin-right: 40px;
+
+}
+
+#footer-container form h2 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+#footer-container form input[type="text"],
+#footer-container form textarea {
+  width: 461px;
+  padding: 18px 31px;
+  border: none;
+  border-radius: 9px;
+  margin-bottom: 30px;
+  color: #757575;
+}
+#footer-container form input[type="text"]:hover,
+#footer-container form textarea:hover{
+  background-color: #fff6f0;
+  box-shadow: 2px 4px 12px rgba(70, 52, 52, 0.216);
+  outline: 1px solid transparent;
 }
